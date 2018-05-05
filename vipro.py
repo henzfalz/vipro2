@@ -147,7 +147,7 @@ groupMessage ="""
 ║    〽️ line.me/ti/p/~gjxvipro 〽️
 ╚═════════════════════════
 """
-vip="uda936836a9869eb86ec8ab992a4e8979"
+vip="u530b8459bbe36cc0652f7f976d9d917c"
 
 setMessage ="""
 ╔═════════════════════════
@@ -251,9 +251,9 @@ helpMessage ="""
 
 KAC=[vipro]
 mid = vipro.getProfile().mid
-Bots=[mid]
-Creator=["uda936836a9869eb86ec8ab992a4e8979"]
-admin=["uda936836a9869eb86ec8ab992a4e8979"]
+Bots=["u4e3997ad3019bf3b753d0665f53582b9"]
+Creator=["u4e3997ad3019bf3b753d0665f53582b9","u530b8459bbe36cc0652f7f976d9d917c"]
+admin=["u4e3997ad3019bf3b753d0665f53582b9","u530b8459bbe36cc0652f7f976d9d917c"]
 
 contact = vipro.getProfile()
 backup1 = vipro.getProfile()
@@ -1045,7 +1045,7 @@ def bot(op):
  
             elif msg.text in ["Creator","Owner"]:
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': tjia}
+                msg.contentMetadata = {"u530b8459bbe36cc0652f7f976d9d917c": FaLL}
                 vipro.sendMessage(msg)
 		vipro.sendText(msg.to,"Itu Majikan Kami (^_^)")
 
