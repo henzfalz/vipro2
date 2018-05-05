@@ -1045,7 +1045,7 @@ def bot(op):
  
             elif msg.text in ["Creator","Owner"]:
                 msg.contentType = 13
-                msg.contentMetadata = {"u530b8459bbe36cc0652f7f976d9d917c": FaLL}
+                msg.contentMetadata = {"u530b8459bbe36cc0652f7f976d9d917c": henzfalz}
                 vipro.sendMessage(msg)
 		vipro.sendText(msg.to,"Itu Majikan Kami (^_^)")
 
