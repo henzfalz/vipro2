@@ -184,7 +184,7 @@ groupMessage ="""
 ║    〽️ line.me/ti/p/~gjxvipro 〽️
 ╚═════════════════════════
 """
-vip="uda936836a9869eb86ec8ab992a4e8979"
+vip="u4e3997ad3019bf3b753d0665f53582b9"
 
 setMessage ="""
 ╔═════════════════════════
@@ -310,7 +310,7 @@ protectMessage ="""
 """
 
 
-KAC=[cl,ki,kk,kc,kr,km,vipro]
+KAC=[cl,ki,kk,kc,kr,km,"u4e3997ad3019bf3b753d0665f53582b9"]
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
 Bmid = kk.getProfile().mid
@@ -318,9 +318,9 @@ Cmid = kc.getProfile().mid
 Dmid = kr.getProfile().mid
 Emid = km.getProfile().mid
 Fmid = vipro.getProfile().mid
-Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,"uda936836a9869eb86ec8ab992a4e8979"]
-Creator=["uda936836a9869eb86ec8ab992a4e8979"]
-admin=["uda936836a9869eb86ec8ab992a4e8979"]
+Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,"u4e3997ad3019bf3b753d0665f53582b9"]
+Creator=["u4e3997ad3019bf3b753d0665f53582b9"]
+admin=["u4e3997ad3019bf3b753d0665f53582b9"]
 
 contact = cl.getProfile()
 backup1 = cl.getProfile()
