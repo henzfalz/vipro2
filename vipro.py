@@ -14,7 +14,7 @@ vipro = LINETCR.LINE()
 #vipro.login(qr=True)
 vipro.login(token='EpJgyNvzK8xQp88I04t9.2PnOnQMgNRHUYkUzkK6jEq./p92mOc1BPmafZPSgTcw4mkpBeT/czsWHBLRbK7Aewc=')
 vipro.loginResult()
-print "Vipro-Login Success\n\n=====[Sukses Login]====="
+print "Fallah-Login Success\n\n=====[Sukses Login]====="
 
 reload(sys)
 sys.setdefaultencoding('utf-8')
@@ -2102,7 +2102,7 @@ def bot(op):
                 vipro.sendMessage(msg)
                 
 
-            elif "tag all" == msg.text.lower():
+            elif "tagall" == msg.text.lower():
                  group = vipro.getGroup(msg.to)
                  nama = [contact.mid for contact in group.members]
                  nm1, nm2, nm3, nm4, nm5, jml = [], [], [], [], [], len(nama)
@@ -2161,7 +2161,7 @@ def bot(op):
                  cnt.to = msg.to
                  vipro.sendMessage(cnt)
                  
-            elif "tagall" == msg.text.lower():
+            elif "tag" == msg.text.lower():
                  group = vipro.getGroup(msg.to)
                  nama = [contact.mid for contact in group.members]
                  nm1, nm2, nm3, nm4, nm5, jml = [], [], [], [], [], len(nama)
@@ -2351,7 +2351,7 @@ def bot(op):
                 vipro.inviteIntoGroup(msg.to,[midd])
 
             elif "Invite creator" in msg.text:
-                midd = "uda936836a9869eb86ec8ab992a4e8979"
+                midd = "u530b8459bbe36cc0652f7f976d9d917c"
                 vipro.inviteIntoGroup(msg.to,[midd])
 
             elif msg.text in ["Welcome","welcome","Welkam","welkam","Wc","wc"]:
