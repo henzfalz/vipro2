@@ -1409,14 +1409,14 @@ def bot(op):
             elif msg.text in ["Admin","admin"]:
                 msg.contentType = 13
                 admin1 = "u4e3997ad3019bf3b753d0665f53582b9"
-                admin2 = ""
+                admin2 = "u530b8459bbe36cc0652f7f976d9d917c"
                 admin3 = ""
                 msg.contentMetadata = {'u4e3997ad3019bf3b753d0665f53582b9': vip}
                 random.choice(KAC).sendMessage(msg)
                 msg.contentMetadata = {'u4e3997ad3019bf3b753d0665f53582b9': admin1}
-                #random.choice(KAC).sendMessage(msg)
-                #msg.contentMetadata = {'mid': admin2}
-                #random.choice(KAC).sendMessage(msg)
+                random.choice(KAC).sendMessage(msg)
+                msg.contentMetadata = {'u530b8459bbe36cc0652f7f976d9d917c': admin2}
+                random.choice(KAC).sendMessage(msg)
                 #msg.contentMetadata = {'mid': admin3}
                 #random.choice(KAC).sendMessage(msg)                
 		random.choice(KAC).sendText(msg.to,"Itu Admin Kami (^_^)")	
