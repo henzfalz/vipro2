@@ -310,7 +310,7 @@ protectMessage ="""
 """
 
 
-KAC=[cl,ki,kk,kc,kr,km,"u4e3997ad3019bf3b753d0665f53582b9"]
+KAC=[cl,ki,kk,kc,kr,km,vipro]
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
 Bmid = kk.getProfile().mid
@@ -319,7 +319,7 @@ Dmid = kr.getProfile().mid
 Emid = km.getProfile().mid
 Fmid = vipro.getProfile().mid
 Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,"u4e3997ad3019bf3b753d0665f53582b9"]
-Creator=["u4e3997ad3019bf3b753d0665f53582b9"]
+Creator=["u530b8459bbe36cc0652f7f976d9d917c"]
 admin=["u4e3997ad3019bf3b753d0665f53582b9"]
 
 contact = cl.getProfile()
@@ -1402,21 +1402,21 @@ def bot(op):
  
             elif msg.text in ["Creator","Owner"]:
                 msg.contentType = 13
-                msg.contentMetadata = {'u4e3997ad3019bf3b753d0665f53582b9': vip}
+                msg.contentMetadata = {'u530b8459bbe36cc0652f7f976d9d917c': vip}
                 cl.sendMessage(msg)
 		cl.sendText(msg.to,"Itu Owner Saya (^_^)")
 		
             elif msg.text in ["Admin","admin"]:
                 msg.contentType = 13
-                admin1 = "u4e3997ad3019bf3b753d0665f53582b9"
-                admin2 = "u530b8459bbe36cc0652f7f976d9d917c"
-                admin3 = ""
+                admin1 = "u530b8459bbe36cc0652f7f976d9d917c"
+                admin2 = "mid"
+                admin3 = "mid"
                 msg.contentMetadata = {'u4e3997ad3019bf3b753d0665f53582b9': vip}
                 random.choice(KAC).sendMessage(msg)
-                msg.contentMetadata = {'u4e3997ad3019bf3b753d0665f53582b9': admin1}
+                msg.contentMetadata = {'u530b8459bbe36cc0652f7f976d9d917c': admin1}
                 random.choice(KAC).sendMessage(msg)
-                msg.contentMetadata = {'u530b8459bbe36cc0652f7f976d9d917c': admin2}
-                random.choice(KAC).sendMessage(msg)
+                #msg.contentMetadata = {'mid': admin2}
+                #random.choice(KAC).sendMessage(msg)
                 #msg.contentMetadata = {'mid': admin3}
                 #random.choice(KAC).sendMessage(msg)                
 		random.choice(KAC).sendText(msg.to,"Itu Admin Kami (^_^)")	
@@ -2819,7 +2819,7 @@ def bot(op):
                 random.choice(KAC).inviteIntoGroup(msg.to,[midd])
 
             elif "Invite creator" in msg.text:
-                midd = "u4e3997ad3019bf3b753d0665f53582b9"
+                midd = "u530b8459bbe36cc0652f7f976d9d917c"
                 random.choice(KAC).inviteIntoGroup(msg.to,[midd])
 
             elif msg.text in ["Welcome","welcome","Welkam","welkam","Wc","wc"]:
