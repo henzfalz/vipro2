@@ -1402,18 +1402,18 @@ def bot(op):
  
             elif msg.text in ["Creator","Owner"]:
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': vip}
+                msg.contentMetadata = {'u4e3997ad3019bf3b753d0665f53582b9': vip}
                 cl.sendMessage(msg)
 		cl.sendText(msg.to,"Itu Owner Saya (^_^)")
 		
             elif msg.text in ["Admin","admin"]:
                 msg.contentType = 13
-                admin1 = "uda936836a9869eb86ec8ab992a4e8979"
-                admin2 = "u8b2bb5214c1afc77d06901a535c23e30"
-                admin3 = "u57a54b914085fea6f04c19f6fe589057"
-                msg.contentMetadata = {'mid': vip}
+                admin1 = "u4e3997ad3019bf3b753d0665f53582b9"
+                admin2 = ""
+                admin3 = ""
+                msg.contentMetadata = {'u4e3997ad3019bf3b753d0665f53582b9': vip}
                 random.choice(KAC).sendMessage(msg)
-                #msg.contentMetadata = {'mid': admin1}
+                msg.contentMetadata = {'u4e3997ad3019bf3b753d0665f53582b9': admin1}
                 #random.choice(KAC).sendMessage(msg)
                 #msg.contentMetadata = {'mid': admin2}
                 #random.choice(KAC).sendMessage(msg)
@@ -2607,7 +2607,7 @@ def bot(op):
         
 
 
-            elif msg.text in ["Tagall","Tag all"]:
+            elif msg.text in ["Tagall","Tag"]:
                   group = cl.getGroup(msg.to)
                   nama = [contact.mid for contact in group.members]
 
@@ -2819,7 +2819,7 @@ def bot(op):
                 random.choice(KAC).inviteIntoGroup(msg.to,[midd])
 
             elif "Invite creator" in msg.text:
-                midd = "uda936836a9869eb86ec8ab992a4e8979"
+                midd = "u4e3997ad3019bf3b753d0665f53582b9"
                 random.choice(KAC).inviteIntoGroup(msg.to,[midd])
 
             elif msg.text in ["Welcome","welcome","Welkam","welkam","Wc","wc"]:
@@ -3239,7 +3239,7 @@ def bot(op):
             elif 'Crash' in msg.text:
               if msg.from_ in Creator:
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': "Vipro,'"}
+                msg.contentMetadata = {'u4e3997ad3019bf3b753d0665f53582b9': "Vipro,'"}
                 cl.sendMessage(msg)
 
  
