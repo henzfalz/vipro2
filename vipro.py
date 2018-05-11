@@ -12,14 +12,12 @@ import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,ast,
 
 vipro = LINETCR.LINE()
 #vipro.login(qr=True)
-vipro.login(token='EssBuJdQzzm70e4GjW59.tJMxRtazVZT1pqzL9twcUq.xovFhIfjkjwfw12n6Frk8oTSH8+samci+/wkFCFV5Bs=')
+vipro.login(token='EsJe1rOu8XTZb2FP0zQ2.3gyc3kvBITnGO+Edm6/gCG.1B9A8UwmhEJ6LRvbB5gm5EHUaoM3F3AjPd8/0QsDJB0=')
 vipro.loginResult()
 print ("Fallah-Login Success\n\n=====[Sukses Login]=====")
 
-
 reload(sys)
 sys.setdefaultencoding('utf-8')
-
 
 selfMessage ="""
 ╔═════════════════════════
@@ -254,7 +252,7 @@ KAC=[vipro]
 mid = vipro.getProfile().mid
 Bots=["u4e3997ad3019bf3b753d0665f53582b9"]
 Creator=["u4e3997ad3019bf3b753d0665f53582b9","u530b8459bbe36cc0652f7f976d9d917c"]
-admin=["u4e3997ad3019bf3b753d0665f53582b9","u530b8459bbe36cc0652f7f976d9d917c"]
+admin=["udc6602dca55b8ad360a3f78333af8672","u530b8459bbe36cc0652f7f976d9d917c"]
 
 contact = vipro.getProfile()
 backup1 = vipro.getProfile()
