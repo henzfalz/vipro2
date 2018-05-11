@@ -12,9 +12,10 @@ import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,ast,
 
 vipro = LINETCR.LINE()
 #vipro.login(qr=True)
-vipro.login(token='EpJgyNvzK8xQp88I04t9.2PnOnQMgNRHUYkUzkK6jEq./p92mOc1BPmafZPSgTcw4mkpBeT/czsWHBLRbK7Aewc=')
+vipro.login(token='EssBuJdQzzm70e4GjW59.tJMxRtazVZT1pqzL9twcUq.xovFhIfjkjwfw12n6Frk8oTSH8+samci+/wkFCFV5Bs=')
 vipro.loginResult()
 print "Fallah-Login Success\n\n=====[Sukses Login]====="
+
 
 reload(sys)
 sys.setdefaultencoding('utf-8')
