@@ -14,7 +14,7 @@ vipro = LINETCR.LINE()
 #vipro.login(qr=True)
 vipro.login(token='EssBuJdQzzm70e4GjW59.tJMxRtazVZT1pqzL9twcUq.xovFhIfjkjwfw12n6Frk8oTSH8+samci+/wkFCFV5Bs=')
 vipro.loginResult()
-print "Fallah-Login Success\n\n=====[Sukses Login]====="
+print ("Fallah-Login Success\n\n=====[Sukses Login]=====")
 
 
 reload(sys)
